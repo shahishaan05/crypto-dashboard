@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crypto Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Dashboard</a>
+        <a href="market.html">Market</a>
+    </nav>
+
+    <h1 class="title">Crypto Price Dashboard</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>Bitcoin</h2>
+            <p id="btc">Loading...</p>
+        </div>
+
+        <div class="card">
+            <h2>Ethereum</h2>
+            <p id="eth">Loading...</p>
+        </div>
+
+        <div class="card">
+            <h2>Dogecoin</h2>
+            <p id="doge">Loading...</p>
+        </div>
+
+    </div>
+
+    <button id="refresh">Refresh Prices</button>
+
+    <p id="updateTime"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
